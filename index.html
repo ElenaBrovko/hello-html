@@ -7,14 +7,21 @@
     <title>Task 1</title>
 </head>
 <body>
+<center>
     <h1>Hello HTML!</h1>
     <h2>Hello HTML!</h2>
     <h3>Hello HTML!</h3>
     <h4>Hello HTML!</h4>
     <h5>Hello HTML!</h5>
     <h6>Hello HTML!</h6>
+<hr>
     <br>
-    <img src="images/one.jpg">
+	<i><p>Click the picture to move to my repository</p></i>
+    <a href="https://elenabrovko.github.io/hello-html/"><img src="images/one.jpg"></a>
+	<br>
+	<video width="500"  height="300" src="video/video1.mp4" autobuffer controls></video>
+		</center>
+		<hr>
     <br>
     <b>List1:</b>
     <ul>
@@ -26,18 +33,27 @@
         <li>li 1</li>
         <li>li 2</li>
     </ol>
+	
+ <p>Choose the variant:</p>
+ <p><input list="variant">
+   <datalist id="variant">
+    <option value="1"></option>
+    <option value="2"></option>
+    <option value="3"></option>
+
+   </datalist></p>
+	<hr>
     <br>
     <b>Form:</b>
     <form action="my_link">
-        <input type="text" placeholder="Photo URL">
-        <label for=""><input id="" type="radio" name="one" checked>Chose1</label>
-        <label for=""><input id="" type="radio" name="two">Chose2</label>
-        <label for=""><input id="" type="radio" name="three">Chose3</label>
+      <input type = "text" name = "my_name" placeholder="My name is Elena"> <br> 
+      Course of softserve<input type = "radio" name = "course" value =  "yes"> <br>
+      Choose the date: <input type="date" id="date" name="date"/> <br>
         <br>
-        <input type="text" placeholder="Photo URL">
-        <label for=""><input id="" type="checkbox" name="four" checked>Chose4</label>
-        <label for=""><input id="" type="checkbox" name="five">Chose5</label>
-        <label for=""><input id="" type="checkbox" name="six">Chose6</label>
+
+        <label for=""><input id="" type="checkbox" name="one" checked>Chose1</label>
+        <label for=""><input id="" type="checkbox" name="two">Chose2</label>
+        <label for=""><input id="" type="checkbox" name="three">Chose3</label>
         <br>
         <button type="submit">submit</button>
     </form>
